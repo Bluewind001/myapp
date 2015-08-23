@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity ----> this is main.xml"
+            />
+
+    <TextView
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="username : "
+            />
+
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/show_input_user"
+              android:text="please input the username: "/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/input_username"/>
+
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/show_input_pwd"
+              android:text="please input the password: "/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/input_password"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/show_input_eml"
+              android:text="please input e-mail: "/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:id="@+id/input_email"/>
+
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="提交"
+            />
+
+
+</LinearLayout>
+
