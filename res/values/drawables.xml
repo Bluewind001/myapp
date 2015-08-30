@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="ltgray" type="drawable">#FFF4F4F4</item>
+    <item name="ltyellow" type="drawable">#FFFFF4DB</item>
+    <item name="black" type="drawable">#FF000000</item>
+    <item name="transparent" type="drawable">#00000000</item>
+    <item name="widget_edit_block_bg_normal" type="drawable">@android:color/transparent</item>
+    <item name="transparent_background" type="drawable">#99000000</item>
+    <item name="list_background" type="drawable">#FFF4F4F4</item>
+    <item name="namcard_pick_bkg_normal" type="drawable">#FF272727</item>
+    <item name="namcard_pick_bkg_hover" type="drawable">#FF333333</item>
+
+
+</resources>

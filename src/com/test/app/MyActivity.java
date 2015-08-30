@@ -13,6 +13,7 @@ public class MyActivity extends Activity {
      */
 
     private Button jump_button;
+    private Button toTabHost;
 
     private EditText usr;
     private EditText pwd;
@@ -23,24 +24,38 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        jump_button = (Button)findViewById(R.id.submit);
+        jump_button = (Button) findViewById(R.id.submit);
         jump_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                usr = (EditText)findViewById(R.id.input_username);
-                pwd = (EditText)findViewById(R.id.input_password);
-                eml = (EditText)findViewById(R.id.input_email);
+                usr = (EditText) findViewById(R.id.input_username);
+                pwd = (EditText) findViewById(R.id.input_password);
+                eml = (EditText) findViewById(R.id.input_email);
 
                 Intent intent = new Intent();
-                intent.putExtra("usr",usr.getText().toString());
-                intent.putExtra("pwd",pwd.getText().toString());
-                intent.putExtra("eml",eml.getText().toString());
+                intent.putExtra("usr", usr.getText().toString());
+                intent.putExtra("pwd", pwd.getText().toString());
+                intent.putExtra("eml", eml.getText().toString());
 
-                intent.setClass(MyActivity.this,New_layout.class);
+                intent.setClass(MyActivity.this, New_layout.class);
                 startActivity(intent);
             }
         });
+
+        toTabHost = (Button) findViewById(R.id.jump_tabHost);
+        toTabHost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent();
+                intent.setClass(MyActivity.this, Maintabs.class);
+                startActivity(intent);
+
+
+            }
+        });
+
 
     }
 }

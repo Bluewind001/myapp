@@ -47,5 +47,11 @@
             />
 
 
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:id="@+id/jump_tabHost"
+            android:text="跳转底部导航栏"
+            />
+
+
 </LinearLayout>
 

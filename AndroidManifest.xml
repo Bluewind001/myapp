@@ -13,5 +13,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".New_layout"/>
+        <activity android:name=".AActivity"/>
+        <activity android:name=".BActivity"/>
+        <activity android:name=".CActivity"/>
+        <activity android:name=".DActivity"/>
+        <activity android:name=".EActivity"/>
+        <activity android:name=".Maintabs"/>
+
+
     </application>
 </manifest>
