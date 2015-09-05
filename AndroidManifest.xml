@@ -20,6 +20,5 @@
         <activity android:name=".EActivity"/>
         <activity android:name=".Maintabs"/>
 
-
     </application>
 </manifest>
